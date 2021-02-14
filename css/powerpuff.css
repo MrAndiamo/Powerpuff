@@ -1,0 +1,793 @@
+.powerpuff {
+    position: relative;
+    transform: scale(0.8);
+    z-index: 9999;
+    height: 66rem;
+    width: 36rem;
+    z-index: o;
+}
+
+/* ##### ribbon START ##### */
+
+.powerpuff__ribbon1--left {
+    position: absolute;
+    top: -14.3rem;
+    left: -16.8rem;
+    shape-outside: ellipse(10rem 20rem at 50% 50%);
+    clip-path: ellipse(3rem 22.5rem at 50% 50%);
+    background-color: #D82C3A;
+    width: 53.9rem;
+    height: 75.5rem;
+    transform: rotate(168deg);
+    z-index: -2;
+}
+
+.powerpuff__ribbon2--left {
+    position: absolute;
+    top: -16rem;
+    left: -11.5rem;
+    shape-outside: ellipse(10rem 20rem at 50% 50%);
+    clip-path: ellipse(3rem 22.5rem at 50% 50%);
+    background-color: #D82C3A;
+    width: 54rem;
+    height: 75.5rem;
+    transform: rotate(155deg);
+    z-index: -2;
+}
+
+
+.powerpuff__ribbonBorder1--top {
+    position: absolute;
+    top: 1.4rem;
+    left: 4.1rem;
+    width: 3rem;
+    height: 3rem;
+    border: 0.5rem solid transparent;
+    border-top: 0.5rem solid black;
+    border-radius: 77%;
+    transform: rotate(-32.3deg);
+    z-index: -1;
+}
+
+.powerpuff__ribbonBorder1--left {
+    position: absolute;
+    top: -1rem;
+    left: 4.46rem;
+    width: 9rem;
+    height: 26rem;
+    border: 0.5rem solid transparent;
+    border-left: 0.8rem solid black;
+    border-radius: 77%;
+    transform: rotate(-7.3deg);
+    z-index: -1;
+}
+
+.powerpuff__ribbonBorder1--right {
+    position: absolute;
+    top: -1.5rem;
+    left: 2rem;
+    width: 14.2rem;
+    height: 36rem;
+    border: 0.5rem solid transparent;
+    border-left: 0.8rem solid black;
+    border-radius: 50%;
+    transform: rotate(-205deg);
+    z-index: -1;
+}
+
+
+
+.powerpuff__ribbon--middle {
+    position: absolute;
+    top: 13.1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #D82C3A;
+    border-top: 1rem solid black;
+    border-radius: 46%;
+    width: 15rem;
+    height: 20rem;
+    z-index: -3;
+}
+
+
+.powerpuff__ribbon1--right {
+    position: absolute;
+    top: -3.6rem;
+    right: 0.5rem;
+    shape-outside: ellipse(10rem 20rem at 50% 50%);
+    clip-path: ellipse(3.4rem 21rem at 50% 50%);
+    background-color: #D82C3A;
+    width: 30.3rem;
+    height: 50rem;
+    transform: rotate(-155deg);
+    z-index: -2;
+}
+
+.powerpuff__ribbon2--right {
+    position: absolute;
+    top: -3.6rem;
+    right: -5.5rem;
+    shape-outside: ellipse(10rem 20rem at 50% 50%);
+    clip-path: ellipse(3.4rem 21rem at 50% 50%);
+    background-color: #D82C3A;
+    width: 30.3rem;
+    height: 50rem;
+    transform: rotate(-167deg);
+    z-index: -2;
+}
+
+
+
+.powerpuff__ribbonBorder2--left {
+    position: absolute;
+    top: -1.8rem;
+    right: 4.86rem;
+    width: 9rem;
+    height: 26rem;
+    border: 0.5rem solid transparent;
+    border-left: 0.8rem solid black;
+    border-radius: 77%;
+    transform: rotate(33.3deg);
+    z-index: -1;
+}
+
+.powerpuff__ribbonBorder2--right {
+    position: absolute;
+    top: -3.3rem;
+    right: 4.6rem;
+    width: 14.2rem;
+    height: 36rem;
+    border: 0.5rem solid transparent;
+    border-left: 0.8rem solid black;
+    border-radius: 50%;
+    transform: rotate(195deg);
+    z-index: -1;
+}
+
+/* ##### ribbon end ##### */
+
+
+
+/* ##### HAIR START ##### */
+.powerpuff__hair {
+    position: absolute;
+    top: 16.2rem;
+    left: 6.1rem;
+    width: 24rem;
+    height: 12rem;
+    background-color: #EEAB30;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 30%, 0% 30%);
+    border-radius: 50%;
+    z-index: 8;
+}
+
+.powerpuff__hair--part1 {
+    position: absolute;
+    top: 15.1rem;
+    left: 4.4rem;
+    width: 6.25rem;
+    height: 14.5rem;
+    background-color: #EEAB30;
+    clip-path: polygon(70% -3%, 93% 2%, 43% 87%, -76% 136%);
+    transform: rotate(34deg);
+    z-index: 8;
+}
+
+.powerpuff__hair--part2 {
+    position: absolute;
+    top: 17.1rem;
+    left: 9.1rem;
+    width: 9.5rem;
+    height: 11.4rem;
+    background-color: #EEAB30;
+    clip-path: polygon(26% 8%, 78% 8%, 69% 65%, -5.5% 105%);
+    transform: rotate(28deg);
+    z-index: 8;
+}
+
+.powerpuff__hair--part3 {
+    position: absolute;
+    top: 17.1rem;
+    right: 7.1rem;
+    width: 9.5rem;
+    height: 10.4rem;
+    background-color: #EEAB30;
+    clip-path: polygon(7% 0%, 62% 7%, 84% 100%, 16% 64%);
+    transform: rotate(-28deg);
+    z-index: 8;
+}
+
+.powerpuff__hair--part4 {
+    position: absolute;
+    top: 15.1rem;
+    right: 4rem;
+    width: 6.25rem;
+    height: 13.5rem;
+    background-color: #EEAB30;
+    clip-path: polygon(72% 9%, 100% 9%, 41% 86%, -32% 112%);
+    transform: rotate(-74deg);
+    z-index: 8;
+}
+
+    /* HAIR BORDER */
+
+    .powerpuff__hairBorder--horizontal1 {
+        position: absolute;
+        top: 26.62rem;
+        left: 1.46rem;
+        border-top: 0.4rem solid black;
+        transform: rotate(-17.8deg);
+        border-radius: 3%;
+        height: 5rem;
+        width: 4.1rem;
+        z-index: 9;
+    }
+
+    .powerpuff__hairBorder--horizontal2 {
+        position: absolute;
+        top: 25.087rem;
+        left: 7.3rem;
+        border-top: 0.4rem solid black;
+        transform: rotate(-4.39deg);
+        border-radius: 1%;
+        height: 5rem;
+        width: 7.5rem;
+        z-index: 9;
+    }
+    
+    .powerpuff__hairBorder--horizontal3 {
+        position: absolute;
+        top: 24.95rem;
+        left: 21.79rem;
+        border-top: 0.4rem solid black;
+        transform: rotate(3.2deg);
+        border-radius: 4%;
+        height: 5rem;
+        width: 7.5rem;
+        z-index: 9;
+    }
+    
+    .powerpuff__hairBorder--horizontal4 {
+        position: absolute;
+        top: 25.95rem;
+        right: 2.16rem;
+        border-top: 0.4rem solid black;
+        transform: rotate(14.2deg);
+        border-radius: 3%;
+        height: 5rem;
+        width: 3rem;
+        z-index: 9;
+    }
+
+    .powerpuff__hairBorder--vertical1 {
+        position: absolute;
+        top: 17.66rem;
+        left: 7.45rem;
+        border: 0.7rem solid transparent;
+        border-left: 0.4rem solid black;
+        transform: rotate(46.9deg);
+        border-radius: 50%;
+        height: 11.6rem;
+        width: 1.8rem;
+        z-index: 9;
+    }
+
+    .powerpuff__hairBorder--vertical2 {
+        position: absolute;
+        top: 18.57rem;
+        left: 8.9rem;
+        border: 0.6rem solid transparent;
+        border-left: 0.4rem solid black;
+        transform: rotate(39deg);
+        border-radius: 50%;
+        height: 8.69rem;
+        width: 1.8rem;
+        z-index: 9;
+    }
+
+    .powerpuff__hairBorder--vertical3 {
+        position: absolute;
+        top: 21rem;
+        left: 15.57rem;
+        border-left: 0.4rem solid black;
+        transform: rotate(36deg);
+        border-radius: 4%;
+        height: 6.6rem;
+        width: 7rem;
+        z-index: 9;
+    }
+
+    .powerpuff__hairBorder--vertical4 {
+        position: absolute;
+        top: 20.95rem;
+        right: 15rem;
+        border-right: 0.4rem solid black;
+        transform: rotate(-36deg);
+        border-radius: 4%;
+        height: 6.7rem;
+        width: 7rem;
+        z-index: 9;
+    }
+
+    .powerpuff__hairBorder--vertical5 {
+        position: absolute;
+        top: 18.2rem;
+        right: 8.3rem;
+        border: 0.7rem solid transparent;
+        border-right: 0.4rem solid black;
+        transform: rotate(-38deg);
+        border-radius: 50%;
+        height: 9.9rem;
+        width: 1.8rem;
+        z-index: 9;
+    }
+
+    .powerpuff__hairBorder--vertical6 {
+        position: absolute;
+        top: 17.2rem;
+        right: 7.15rem;
+        border: 0.7rem solid transparent;
+        border-right: 0.4rem solid black;
+        transform: rotate(-49deg);
+        border-radius: 50%;
+        height: 11.9rem;
+        width: 1.8rem;
+        z-index: 9;
+    }
+
+/* ##### HAIR END ##### */
+
+
+/* ##### HEAD START ##### */
+.powerpuff__head {
+    position: absolute;
+    top: 16rem;
+    left: 0;
+
+    width: 36.4rem;
+    height: 32rem;
+    border-radius: 50%;
+    background-color: #FCDFCD;
+    z-index: 0;
+}
+
+.powerpuff__head--border {
+    position: absolute;
+    top: 160px;
+    left: 0;
+    width: 36.4rem;
+    height: 32rem;
+    border-radius: 50%;
+    border: 1.3em solid black;
+    z-index: 999;
+}
+/* ##### HEAD END ##### */
+
+/* ##### LEFT EYE START ##### */
+.powerpuff__eye--left {
+    position: absolute;
+    top: 23.9rem;
+    left: 0.1rem;
+
+    width: 16rem;
+    height: 17rem;
+    border-radius: 50%;
+    background-color: white;
+    
+    transform: rotate(15deg);
+    z-index: 2;
+}
+
+.powerpuff__eye--leftBorder {
+    position: absolute;
+    top: 23.7rem;
+    left: 0rem;
+
+    width: 16.6rem;
+    height: 17.555rem;
+    border-radius: 50%;
+    
+    border: 0.45rem solid black;
+    transform: rotate(15deg);
+    z-index: 5;
+}
+
+
+.powerpuff__eyePink--left {
+    position: absolute;
+    top: 23.9rem;
+    left: 2.45rem;
+
+    width: 14rem;
+    height: 16.6rem;
+    border-radius: 50%;
+    background-color: #F16A6E;
+    transform: rotate(-4deg);
+   
+    opacity: 0.8;
+    z-index: 3;
+}
+
+.powerpuff__eyeBlack--left {
+    position: absolute;
+    top: 25rem;
+    left: 4.8rem;
+
+    width: 11.5rem;
+    height: 13rem;
+    border-radius: 50%;
+    background-color: black;
+    transform: rotate(-10deg);
+    
+    z-index: 3;
+}
+
+.powerpuff__eyeWhite--left {
+    position: absolute;
+    top: 26.4rem;
+    left: 10.3rem;
+
+    width: 4.8rem;
+    height: 4.9rem;
+    
+    border-radius: 50%;
+    background-color: white;
+   
+    z-index: 6;
+}
+/* ##### LEFT EYE END ##### */
+
+
+
+
+/* ##### RIGHT EYE START ##### */
+.powerpuff__eye--right {
+    position: absolute;
+    top: 23rem;
+    right: 0.8rem;
+
+    width: 15rem;
+    height: 18rem;
+    border-radius: 50%;
+    background-color: white;
+    transform: rotate(6deg);
+    z-index: 0;
+}
+
+.powerpuff__eye--rightBorder {
+    position: absolute;
+    top: 22.5rem;
+    right: 0;
+
+    width: 15.8rem;
+    height: 18.8rem;
+    border: 0.45rem solid black;
+    border-radius: 50%;
+    transform: rotate(6deg);
+    
+    z-index: 5;
+}
+
+.powerpuff__eyePink--right {
+    position: absolute;
+    top: 23rem;
+    right: 0.2rem;
+
+    width: 14.6rem;
+    height: 17.3rem;
+    border-radius: 50%;
+    background-color: #F16A6E;
+    transform: rotate(17deg);
+    
+    opacity: 0.8;
+    z-index: 3;
+}
+
+.powerpuff__eyeBlack--right {
+    position: absolute;
+    top: 24.8rem;
+    right: 0rem;
+
+    width: 12.3rem;
+    height: 12.7rem;
+    
+
+    border: 0.3rem solid black;
+    border-radius: 50%;
+    background-color: black;
+    transform: rotate(-19deg);
+    
+    z-index: 3;
+}
+
+.powerpuff__eyeWhite--right {
+    position: absolute;
+    top: 27rem;
+    right: 1.2rem;
+    width: 4.8rem;
+    height: 4.9rem;
+    
+    border-radius: 50%;
+    background-color: white;
+    z-index: 999;
+}
+/* ##### RIGHT EYE END ##### */
+
+
+
+/* ##### MOUTH START ##### */
+.powerpuff__mouth {
+    position: absolute;
+    bottom: 33%;
+    left: 51%;
+    transform: translateX(-50%);
+    width: 4.6rem;
+    height: 7rem;
+    border-radius: 50%;
+    border-bottom: 0.8rem solid black;
+} 
+/* ##### MUOTH END ##### */
+
+
+/* ##### SHIRT START ##### */
+.powerpuff__shirt--part1 {
+    position: absolute;
+    bottom: 17.17rem;
+    left: 50.5%;
+    transform: translateX(-50%);
+    background-color: #EB6971;
+    height: 3rem;
+    width: 7.4rem;
+    z-index: -3;
+}
+
+.powerpuff__shirt--cutout1 {
+    position: absolute;
+    bottom: 16.5rem;
+    left: 51%;
+    transform: translateX(-50%);
+    background-color: #EB6971;
+    border-radius: 50%;
+    height: 2.4rem;
+    width: 8.2rem;
+    z-index: -3;
+}
+
+.powerpuff__shirt--part2 {
+    position: absolute;
+    bottom: 13.2rem;
+    left: 50.5%;
+    transform: translateX(-50%);
+    background-color: black;
+    height: 3.95rem;
+    width: 7.4rem;
+    z-index: -4;
+}
+
+.powerpuff__shirt--cutout2 {
+    position: absolute;
+    bottom: 12.55rem;
+    left: 50.5%;
+    transform: translateX(-50%);
+    background-color: black;
+    border-radius: 50%;
+    height: 2.4rem;
+    width: 8.4rem;
+    z-index: -4;
+}
+
+.powerpuff__shirt--part3 {
+    position: absolute;
+    bottom: 10.2rem;
+    left: 50.5%;
+    transform: translateX(-50%);
+    background-color: #EB6971;
+    height: 3rem;
+    width: 7.4rem;
+    z-index: -6;
+}
+
+.powerpuff__shirt--border {
+    position: absolute;
+    bottom: 14%;
+    left: 50.5%;
+    transform: translateX(-50%);
+    border: 1.4rem solid black;
+    clip-path: polygon(20% 0, 84% 0, 100% 100%, 2% 100%);
+    height: 31rem;
+    width: 9.4rem;
+    z-index: -1;
+}
+/* ##### SHIRT END ##### */
+
+
+/* ##### ARMS START ##### */
+.powerpuff__arm--left {
+    position: absolute;
+    bottom: 10.4rem;
+    left: 11.5rem;
+    border-radius: 50%;
+    height: 10rem;
+    width: 13rem;
+    background-color: #FDFFFE;
+    transform: rotate(-3deg);
+    border: 0.5rem solid transparent;
+    border-left: 1rem solid black;
+    z-index: -7;
+}
+
+.powerpuff__arm--right {
+    position: absolute;
+    bottom: 10rem;
+    right: 11rem;
+    border-radius: 50%;
+    height: 11rem;
+    width: 17rem;
+    transform: rotate(2deg);
+    border: 0.5rem solid transparent;
+    border-right: 1rem solid black;
+    z-index: -7;
+}
+/* ##### ARMS END ##### */
+
+
+/* ##### LEGS START ##### */
+.powerpuff__legs--left{
+    position: absolute;
+    bottom: 2%;
+    left: 44.85%;
+    transform: translateX(-50%) rotate(2deg);
+    height: 23rem;
+    width: 4.7rem;
+    background-color: #FDFFFE;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border: 1rem solid black;
+    border-bottom: 2.4rem solid black;
+    z-index: -8;
+}
+
+.powerpuff__legsSock--left{
+    position: absolute;
+    bottom: 5.5%;
+    left: 44%;
+    transform: translateX(-50%);
+    height: 2rem;
+    width: 4rem;
+
+    border-top: 0.5rem solid black;
+    z-index: -8;
+    background-color: transparent;
+}
+
+.powerpuff__legs--right{
+    position: absolute;
+    bottom: 2%;
+    right: 30.1%;
+    transform: translateX(-50%) rotate(-2deg);
+    height: 23rem;
+    width: 4.8rem;
+    background-color: #FDFFFE;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border: 1rem solid black;
+    border-bottom: 2.4rem solid black;
+    z-index: -8;
+}
+
+.powerpuff__legsSock--right{
+    position: absolute;
+    bottom: 5.5%;
+    right: 32%;
+    transform: translateX(-50%);
+    height: 2rem;
+    width: 4rem;
+
+    border-top: 0.5rem solid black;
+    z-index: -8;
+    background-color: transparent;
+}
+
+/* ##### LEGS END ##### */
+
+
+
+/* ##### HAIR BOTTOM START ##### */
+
+.powerpuff__hairBottomBorder {
+    position: absolute;
+    border: 0.6rem solid transparent;
+    border-radius: 50%;
+    z-index: -10;
+}
+
+.powerpuff__hairBottomBorder--left {
+    bottom: 11.2%;
+    left: -24.7%;
+    height: 19rem;
+    width: 21rem;
+    border-right: 1rem solid black;
+    transform: rotate(6deg);
+    
+}
+
+.powerpuff__hairBottomBorder--bottom {
+    bottom: 2.7rem;
+    left: 50.5%;
+    transform: translateX(-50%);
+    height: 39rem;
+    width: 29.7rem;
+    border-bottom: 1rem solid black;
+}
+
+.powerpuff__hairBottomBorder--right {
+    bottom: 11.7%;
+    right: -22.7%;
+    height: 18rem;
+    width: 20rem;
+    border-left: 1rem solid black;
+    transform: rotate(-6deg);
+}
+
+/* Haircolor */
+
+.powerpuff__hairColor--center {
+    position: absolute;
+    bottom: 8%;
+    left: 50.5%;
+    transform: translateX(-50%);
+    background-color: #EEAB30;
+    width: 14rem;
+    height: 16rem;
+    
+    z-index: -11;
+}
+
+.powerpuff__hairColor--bottom {
+    position: absolute;
+    bottom: 5.9%;
+    left: 50.5%;
+    transform: translateX(-50%);
+    background-color: #EEAB30;
+    border-radius: 50%;
+    width: 20rem;
+    height: 10.5rem;
+    z-index: -11;
+}
+
+
+/* Hairline */
+.powerpuff__hairLine {
+    position: absolute;
+    width: 3.5rem;
+    height: 0.8rem;
+    border: 0.4em solid transparent;
+    border-radius: 50%;
+    z-index: -10;
+}
+
+.powerpuff__hairLine--left {
+    bottom: 11%;
+    left: 25%;
+    border-bottom: 0.4em solid black;
+    transform: rotate(-49deg);
+}
+
+.powerpuff__hairLine--right {
+    bottom: 11%;
+    right: 24%;
+    border-top: 0.4em solid black;
+    transform: rotate(-127deg);
+}
+
+
+/* ##### HAIR BOTTOM END ##### */
+
+
+/* ##### SCALING ##### */
+@media (min-width: 62.5rem) {
+    .powerpuff {
+        transform: scale(1);
+    }
+}
